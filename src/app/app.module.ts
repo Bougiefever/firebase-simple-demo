@@ -5,7 +5,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AngularFireModule }  from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
-/// ...
 
 import { AppComponent } from './app.component';
 import { SimpleValueComponent } from './simple-value/simple-value.component';
