@@ -31,7 +31,7 @@ export class AtomicSaveComponent implements OnInit {
   like() {
     let likesRef = this.database.ref('likes');
     let likePushKey = likesRef.push().key;
-    /// omitted ///
+
     let eventKey = this.event.$key;
     let likedEvent = { name: this.event.name + ' For Fun & Profit', like: 'someone likes this' };
 

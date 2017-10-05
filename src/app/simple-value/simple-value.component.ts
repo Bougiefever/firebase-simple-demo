@@ -17,6 +17,7 @@ export class SimpleValueComponent implements OnInit {
   ngOnInit() {
     const pathToObject = '/events/0';
     this.event$ = this.db.object(pathToObject);
+    
     this.event$.subscribe(console.log);
   }
 }
